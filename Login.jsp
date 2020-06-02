@@ -13,5 +13,31 @@
     </head>
     <body>
         <h1>Sistema academico</h1>
+        <form name="Datos" action="Valida.jsp" method="POST">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th colspan="2">Ingrese usuario y clave</th>
+                     
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Usuario</td>
+                <input type="text" name="f_usuario" value="" />
+                    </tr>
+                    <tr>
+                        <td>Clave</td>
+                <input type="password" name="f_clave" value="" />
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="submit" name="f_ingresar" value="Ingresar" /></td>
+                       
+                    </tr>
+                </tbody>
+            </table>
+
+        </form>
     </body>
 </html>
